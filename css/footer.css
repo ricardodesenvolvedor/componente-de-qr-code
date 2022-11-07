@@ -1,0 +1,24 @@
+.footer {
+    padding: calc(4rem - 0.2rem) 0;
+    text-align: center;
+}
+.footer .assignment a,
+.footer .author a {
+    display: inline-block;
+    color: #1f3251;
+    text-decoration: none;
+    padding: 0.2rem 0;
+    /* transition-property | transition-duration | transition-timing-function */
+    transition: color 200ms ease-in-out;
+}
+@media not all and (hover: none) {
+    .footer .assignment a:hover,
+    .footer .author a:hover {
+        color: #2C7DFA;
+    }
+}
+.footer .assignment a:active,
+.footer .author a:active {
+    color: #3685FF;
+}
+
